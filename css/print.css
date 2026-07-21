@@ -39,14 +39,14 @@ table {
 th, td {
   padding: 1px 4px !important;
   line-height: 1.25 !important;
-  border-bottom: 1px solid #ddd !important;
+  border-bottom: 1px solid #fff !important;
 }
 
 .totals-row, .row, .item-row {
   padding: 1px 0 !important;
   margin: 0 !important;
   line-height: 1.25 !important;
-  border-bottom: 1px solid #eee !important;
+  border-bottom: 1px solid #fff !important;
   page-break-inside: avoid;
 }
 
