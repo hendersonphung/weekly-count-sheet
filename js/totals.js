@@ -103,6 +103,6 @@ window.addEventListener('beforeprint', () => {
 window.addEventListener('afterprint', () => {
   const timestampEl = document.getElementById('printTimestamp');
   if (timestampEl) {
-    timestampEl.textContent = ''; // Wipes the text clean
+    timestampEl.textContent = '';
   }
 });

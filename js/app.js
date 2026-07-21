@@ -1,4 +1,4 @@
-let counts = {}; // seq -> {caseCount, looseCount}
+let counts = {};
 let query = "";
 
 function matchesQuery(item){

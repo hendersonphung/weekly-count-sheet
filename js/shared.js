@@ -1,4 +1,3 @@
-// Shared across index.html (count entry) and totals.html (POS key-in page).
 const STORAGE_KEY = "weeklycount:current";
 const TICKS_KEY = "weeklycount:ticks";
 const LOC_ORDER = ["Chicken Cooler", "Cooler", "Freezer", "Breakfast Meats", "Stockroom", "Drinks"];
@@ -69,8 +68,6 @@ function saveTicks(ticks){
   }
 }
 
-// Sorted in POS sequence order — this is the order used for the Totals
-// page and the CSV export, so it lines up with what's being keyed into the POS.
 function itemsInPosSequence(){
   return [...ITEMS].sort((a,b) => a.seq - b.seq);
 }
